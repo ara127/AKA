@@ -10,7 +10,6 @@ int iterativeMax(EPRT_Score scores[], int size) {
     return maxScore;
 }
 
-// Sequential search recursive function
 int recursiveMax(EPRT_Score scores[], int index) {
     if (index == 0) {
         return scores[0].score;
